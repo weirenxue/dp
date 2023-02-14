@@ -35,6 +35,6 @@
     1. [Memento](./behavioral/memento/): A token representing the system state. Lets us roll back to the state when the token was generated. May or may not directly expose state information.
     1. [Observer](./behavioral/observer/): An observer is an object that wishes to be informed about events happening in the system. The entity generating the events is an observable.
     1. [State](./behavioral/state/): A pattern in which the object's behavior is determined by its state. An object transitions from one state to another (something needs to trigger a transition). A formalized construct which manages state and transitions is called a state machine.
-    1. [Strategy](./behavioral/strategy/)
-    1. [Template Method](./behavioral/template_method/)
-    1. [Visitor](./behavioral/visitor/)
+    1. [Strategy](./behavioral/strategy/): Seperates an algorithm into its 'skeleton' and concrete implementation steps, which can be varied at run-time.
+    1. [Template Method](./behavioral/template_method/): A skeleton algorithm defined in a function. Function can either use an interface (like Strategy) or can take serveral functions as arguments.
+    1. [Visitor](./behavioral/visitor/): A pattern where a component (visitor) is allowed to traverse the entire hierarchy of types. Implemeneted by propagating a single Accept() method throughout the entire hierachy.
